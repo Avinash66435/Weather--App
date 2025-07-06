@@ -1,0 +1,88 @@
+body {
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs_3t/19361.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: 'Satoshi', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#weather-container {
+    text-align: center;
+    color: #fff;
+}
+
+.back {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 30px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.25);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.back h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.back input {
+    width: 80%;
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.back input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.back input:focus {
+    border-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.3);
+}
+
+.back button {
+    width: 50%;
+    padding: 12px 20px;
+    font-size: 16px;
+    color: #fff;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.back button:hover {
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+}
+
+#temp-div, #weather-info, #hourly-forecast {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fff;
+}
